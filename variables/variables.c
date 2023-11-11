@@ -15,6 +15,11 @@ int main()
     printf("\nlast final after %d", x);
     x = 400;
     printf("\nsuper last after %d", x);
+    int r;
+    r = 9-1;
+    printf("\nnew integer %d", r);
+    r = r-x+3-2*3/3+r;
+    printf("\ngand faad equation %d", r);
 
     return 0;
 }
