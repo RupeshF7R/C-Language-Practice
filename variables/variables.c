@@ -20,6 +20,11 @@ int main()
     printf("\nnew integer %d", r);
     r = r-x+3-2*3/3+r;
     printf("\ngand faad equation %d", r);
+    x = x=r+389;
+    printf("\ncompare\n %d", x);
+    int i = 8;
+    int u = 10;
+    printf("\nfinal %d", i - u);
 
-    return 0;
+        return 0;
 }
