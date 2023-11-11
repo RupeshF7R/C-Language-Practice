@@ -25,6 +25,9 @@ int main()
     int i = 8;
     int u = 10;
     printf("\nfinal %d", i - u);
+    printf("\nfinal %d", i + u);
+    printf("\nfinal %d", i * u);
+    printf("\nfinal %d", i / u);
 
         return 0;
 }
