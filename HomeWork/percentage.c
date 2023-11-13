@@ -23,7 +23,7 @@ int main()
     scanf("%f", &m4);
     printf("Enter Your English Marks\n");
     scanf("%f", &m5);
-    printf("\n Your Total Marks Is %f", m1 + m2 + m3 + m4 + m5);
+    // printf("%d",sm);
     fnl = (m1+m2+m3+m4+m5)/5;
     printf("\n Your percentage is %f", fnl);
 
