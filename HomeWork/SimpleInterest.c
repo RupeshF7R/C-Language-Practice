@@ -9,9 +9,9 @@ int main()
     scanf("%f", &p);
     printf("\nEnter Your Interest Rate\n");
     scanf("%f", &r);
-    printf("\nEnter Your time (in Years)\n");
+    printf("\nEnter Your time (in MONTHS)\n");
     scanf("%f", &t);
-    si = p*r*t/100+p;
+    si = p*r*t/12/100+p;
     printf("\nThis Amount Pay Extra %f\n",si);
 
     return 0;
