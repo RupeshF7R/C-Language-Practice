@@ -1,16 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,s,f;
-    // float f;
-    printf("welcome to Nofix academy");
-    printf("enter the a Value");
+    int a,b;
+    printf("enter the A Value : ");
     scanf("%d",&a);
-    printf("enter the B Value");
-    scanf("%d", &b);
-    s = a<b;
-    printf("greater then value is %d",s);
-    f = a/b;
-    printf("last final value is %d", f);
+    printf("enter the B Value : ");
+    scanf("%d",& b);
+    int q = a/b;
+    int r = a-b*q;
+    printf("your A Value is = %d your B value is %d and final answer is %d",a,b,r);
     return 0;
 }
