@@ -8,16 +8,14 @@ int main()
     if (a % 2 == 0)
     {
         printf("enven Number");
-
     }
-    if (a%2!=0)
+    else
     {
-        printf("Odd Number");
-    }
-    
-    
-    // else{
-    //     printf("odd number");
+        printf("odd number");
+    } 
+    // if (a%2!=0)
+    // {
+    //     printf("Odd Number");
     // }
 
     // if (a<7)
