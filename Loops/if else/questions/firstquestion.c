@@ -21,7 +21,7 @@ int main()
         printf("\nbro you are making loss incrage price now %d", lp);
     }
     spp = sp - cp;
-    cpp = cp - sp;
+    cpp = cp -sp;
     printf("\nseller profit is : %d inr  seller loss is  %d inr: ", spp, cpp);
     return 0;
 }
