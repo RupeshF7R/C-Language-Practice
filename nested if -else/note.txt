@@ -1,0 +1,2 @@
+#nested if else means if > if > if 
+# full means Loops Inside Loppes Loppes
